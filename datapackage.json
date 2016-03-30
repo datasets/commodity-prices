@@ -1,0 +1,39 @@
+{
+  "name": "commodity-prices",
+  "title": "Commodity prices",
+  "descriptions": "Monthly prices of most commodities from 1980 to 2016 years",
+  "licenses" : [
+    {
+      "type": "odc-pddl",
+      "url": "http://opendatacommons.org/licenses/pddl/"
+    }
+  ],
+  "keywords": [ "Commodity", "commodity prices", "Key commodities", "main commodities"],
+  "version": "0.1.0",
+  "last_updated": "2016-03-30",
+  "sources": [
+    {
+      "name": "International Monetary Fund (IMF)",
+      "web": "www.imf.org"
+    }
+  ],
+  "resources": [
+    {
+      "url": "http://www.imf.org/external/np/res/commod/External_Data.xls",
+      "schema": {
+        "fields": [
+          {
+            "name": "Date",
+            "type": "date",
+            "format": "yyyy-mm-dd"
+          },
+          {
+            "name": "Price",
+            "type": "float"
+          }
+	]
+      }
+    }
+  ]
+}
+
