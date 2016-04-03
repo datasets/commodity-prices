@@ -146,8 +146,16 @@
           {
             "name": "Maize (corn)",
             "type": "number"
+          },
+          {
+            "name": "Beef",
+            "type": "number"
+          },
+          {
+            "name": "Natural Gas (Russian Natural Gas border price in Germany)",
+            "type": "number"
           }
-        ]
+	]
       }
     }
   ]
