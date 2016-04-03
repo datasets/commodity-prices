@@ -56,11 +56,11 @@
             "type": "number"
           },
           {
-            "name": "Fuel (Energy) Index",
+            "name": "Fuel Energy Index",
             "type": "number"
           },
           {
-            "name": "Crude Oil (petroleum)",
+            "name": "Crude Oil petroleum",
             "type": "number"
           },
           {
@@ -88,11 +88,11 @@
             "type": "number"
           },
           {
-            "name": "Coffee (Other Mild Arabicas)",
+            "name": "Coffee Other Mild Arabicas",
             "type": "number"
           },
           {
-            "name": "Coffee (Robusta)",
+            "name": "Coffee Robusta",
             "type": "number"
           },
           {
@@ -112,7 +112,7 @@
             "type": "number"
           },
           {
-            "name": "Groundnuts (peanuts)",
+            "name": "Groundnuts peanuts",
             "type": "number"
           },
           {
@@ -120,7 +120,7 @@
             "type": "number"
           },
           {
-            "name": "China import Iron Ore Fines 62% FE spot (CFR Tianjin port)",
+            "name": "China import Iron Ore Fines 62% FE spot",
             "type": "number"
           },
           {
@@ -140,7 +140,7 @@
             "type": "number"
           },
           {
-            "name": "Maize (corn)",
+            "name": "Maize corn",
             "type": "number"
           },
           {
@@ -148,15 +148,15 @@
             "type": "number"
           },
           {
-            "name": "Natural Gas (Russian Natural Gas border price in Germany)",
+            "name": "Natural Gas - Russian Natural Gas border price in Germany",
             "type": "number"
           },
           {
-            "name": "Natural Gas (Indonesian Liquefied Natural Gas in Japan)",
+            "name": "Natural Gas - Indonesian Liquefied Natural Gas in Japan",
             "type": "number"
           },
           {
-            "name": "Natural Gas (Spot price at the Henry Hub terminal in Louisiana)",
+            "name": "Natural Gas - Spot price at the Henry Hub terminal in Louisiana",
             "type": "number"
           },
           {
@@ -164,11 +164,11 @@
             "type": "number"
           },
           {
-            "name": "Crude Oil (petroleum-simple average of three spot prices)",
+            "name": "Crude Oil - petroleum-simple average of three spot prices",
             "type": "number"
           },
           {
-            "name": "Crude Oil (petroleum - Dated Brent light blend)",
+            "name": "Crude Oil - petroleum - Dated Brent light blend",
             "type": "number"
           },
           {
@@ -176,7 +176,7 @@
             "type": "number"
           },
           {
-            "name": "Crude Oil (petroleum - West Texas Intermediate 40 API)",
+            "name": "Crude Oil petroleum - West Texas Intermediate 40 API",
             "type": "number"
           },
           {
@@ -192,11 +192,11 @@
             "type": "number"
           },
           {
-            "name": "Swine (pork)",
+            "name": "Swine - pork",
             "type": "number"
           },
           {
-            "name": "Poultry (chicken)",
+            "name": "Poultry chicken",
             "type": "number"
           },
           {
@@ -208,7 +208,7 @@
             "type": "number"
           },
           {
-            "name": "Fish (salmon)",
+            "name": "Fish salmon",
             "type": "number"
           },
           {
@@ -236,15 +236,15 @@
             "type": "number"
           },
           {
-            "name": "Sugar (European import price)",
+            "name": "Sugar European import price",
             "type": "number"
           },
           {
-            "name": "Sugar (Free Market)",
+            "name": "Sugar Free Market",
             "type": "number"
           },
           {
-            "name": "Sugar (U.S. import price)",
+            "name": "Sugar U.S. import price",
             "type": "number"
           },
           {
@@ -268,11 +268,11 @@
             "type": "number"
           },
           {
-            "name": "Wool (coarse)",
+            "name": "Wool coarse",
             "type": "number"
           },
           {
-            "name": "Wool (fine)",
+            "name": "Wool fine",
             "type": "number"
           },
           {
