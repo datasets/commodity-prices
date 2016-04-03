@@ -46,6 +46,38 @@
           {
             "name": "Industrial Inputs Price Index",
             "type": "number"
+          },
+          {
+            "name": "Agricultural Raw Materials Index",
+            "type": "number"
+          },
+          {
+            "name": "Metals Price Index",
+            "type": "number"
+          },
+          {
+            "name": "Fuel (Energy) Index",
+            "type": "number"
+          },
+          {
+            "name": "Crude Oil (petroleum)",
+            "type": "number"
+          },
+          {
+            "name": "Aluminum",
+            "type": "number"
+          },
+          {
+            "name": "Beef",
+            "type": "number"
+          },
+          {
+            "name": "Bananas",
+            "type": "number"
+          },
+          {
+            "name": "Barley",
+            "type": "number"
           }
         ]
       }
