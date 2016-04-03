@@ -78,6 +78,26 @@
           {
             "name": "Beef",
             "type": "number"
+          },
+          {
+            "name": "Coal",
+            "type": "number"
+          },
+          {
+            "name": "Cocoa beans",
+            "type": "number"
+          },
+          {
+            "name": "Coffee (Other Mild Arabicas)",
+            "type": "number"
+          },
+          {
+            "name": "Coffee (Robusta)",
+            "type": "number"
+          },
+          {
+            "name": "Rapeseed oil",
+            "type": "number"
           }
         ]
       }
