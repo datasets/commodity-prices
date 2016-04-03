@@ -30,6 +30,22 @@
           {
             "name": "All Commodity Price Index",
             "type": "number"
+          },
+          {
+            "name": "Non-Fuel Price Index",
+            "type": "number"
+          },
+          {
+            "name": "Food Price Index",
+            "type": "number"
+          },
+          {
+            "name": "Beverage Price Index",
+            "type": "number"
+          },
+          {
+            "name": "Industrial Inputs Price Index",
+            "type": "number"
           }
         ]
       }
