@@ -98,6 +98,34 @@
           {
             "name": "Rapeseed oil",
             "type": "number"
+          },
+          {
+            "name": "Copper	",
+            "type": "number"
+          },
+          {
+            "name": "Cotton",
+            "type": "number"
+          },
+          {
+            "name": "Fishmeal",
+            "type": "number"
+          },
+          {
+            "name": "Groundnuts (peanuts)",
+            "type": "number"
+          },
+          {
+            "name": "Hides",
+            "type": "number"
+          },
+          {
+            "name": "China import Iron Ore Fines 62% FE spot (CFR Tianjin port)",
+            "type": "number"
+          },
+          {
+            "name": "Lamb",
+            "type": "number"
           }
         ]
       }
