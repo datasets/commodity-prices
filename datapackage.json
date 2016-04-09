@@ -30,255 +30,322 @@
           {
             "name": "All Commodity Price Index",
             "type": "number",
-            "description": "testing"
+            "description": "includes both Fuel and Non-Fuel Price Indices"
           },
           {
             "name": "Non-Fuel Price Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Food and Beverages and Industrial Inputs Price Indices"
+          },
+          {
+            "name": "Food and Beverage Price Index",
+            "type": "number",
+            "description": "includes Food and Beverage Price Indices"
           },
           {
             "name": "Food Price Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Cereal, Vegetable Oils, Meat, Seafood, Sugar, Bananas, and Oranges Price Indices"
           },
           {
             "name": "Beverage Price Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Coffee, Tea, and Cocoa"
           },
           {
             "name": "Industrial Inputs Price Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Agricultural Raw Materials and Metals Price Indices"
           },
           {
             "name": "Agricultural Raw Materials Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Timber, Cotton, Wool, Rubber, and Hides Price Indices"
           },
           {
             "name": "Metals Price Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Copper, Aluminum, Iron Ore, Tin, Nickel, Zinc, Lead, and Uranium Price Indices"
           },
           {
             "name": "Fuel Energy Index",
-            "type": "number"
+            "type": "number",
+            "description": "includes Crude oil (petroleum), Natural Gas, and Coal Price Indices"
           },
           {
             "name": "Crude Oil petroleum",
-            "type": "number"
+            "type": "number",
+            "description": "simple average of three spot prices Dated Brent, West Texas Intermediate and the Dubai Fateh"
           },
           {
             "name": "Aluminum",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Bananas",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Barley",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Beef",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Coal",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Cocoa beans",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Coffee Other Mild Arabicas",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Coffee Robusta",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Rapeseed oil",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Copper",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Cotton",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Fishmeal",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Groundnuts peanuts",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Hides",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "China import Iron Ore",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Lamb",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Lead",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Soft Logs",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Hard Logs",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Maize corn",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Beef",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Natural Gas - Russian Natural Gas border price in Germany",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Natural Gas - Indonesian Liquefied Natural Gas in Japan",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Natural Gas - Spot price at the Henry Hub terminal in Louisiana",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Nickel",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Crude Oil - petroleum-simple average of three spot prices",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Crude Oil - petroleum - Dated Brent light blend",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Oil Dubai",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Crude Oil petroleum - West Texas Intermediate 40 API",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Olive Oil",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Oranges",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Palm oil",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Swine - pork",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Poultry chicken",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Rice",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Rubber",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Fish salmon",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Hard Sawnwood",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Soft Sawnwood",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Shrimp",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Soybean Meal",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Soybean Oil",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Soybeans",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Sugar European import price",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Sugar Free Market",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Sugar US import price",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Sunflower oil",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Tea",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Tin",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Uranium",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Wheat",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Wool coarse",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Wool fine",
-            "type": "number"
+            "type": "number",
+            "description": ""
           },
           {
             "name": "Zinc",
-            "type": "number"
+            "type": "number",
+            "description": ""
           }
         ]
       }
