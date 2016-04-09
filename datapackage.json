@@ -80,272 +80,268 @@
           {
             "name": "Aluminum",
             "type": "number",
-            "description": ""
+            "description": "99.5% minimum purity, USD per metric ton"
           },
           {
             "name": "Bananas",
             "type": "number",
-            "description": ""
+            "description": "Central American and Ecuador, USD per metric ton"
           },
           {
             "name": "Barley",
             "type": "number",
-            "description": ""
+            "description": "Canadian no.1 Western Barley, USD per metric ton"
           },
           {
             "name": "Beef",
             "type": "number",
-            "description": ""
+            "description": "Australian and New Zealand, US cents per pound"
           },
           {
             "name": "Coal",
             "type": "number",
-            "description": ""
+            "description": "Australian thermal coal, USD per metric ton"
           },
           {
             "name": "Cocoa beans",
             "type": "number",
-            "description": ""
+            "description": "International Cocoa Organization, USD per metric ton"
           },
           {
             "name": "Coffee Other Mild Arabicas",
             "type": "number",
-            "description": ""
+            "description": "International Coffee Organization, US cents per pound"
           },
           {
             "name": "Coffee Robusta",
             "type": "number",
-            "description": ""
+            "description": "International Coffee Organization, US cents per pound"
           },
           {
             "name": "Rapeseed oil",
             "type": "number",
-            "description": ""
+            "description": "Fob Rotterdam, USD per metric ton"
           },
           {
             "name": "Copper",
             "type": "number",
-            "description": ""
+            "description": "Grade A cathode, USD per metric ton"
           },
           {
             "name": "Cotton",
             "type": "number",
-            "description": ""
+            "description": "Cotton Outlook 'A Index', Middling 1-3/32 inch staple, CIF Liverpool, US cents per pound"
           },
           {
             "name": "Fishmeal",
             "type": "number",
-            "description": ""
+            "description": "Peru Fish meal/pellets, USD per metric ton"
           },
           {
             "name": "Groundnuts peanuts",
             "type": "number",
-            "description": ""
+            "description": "40/50 (40 to 50 count per ounce), USD per metric ton"
           },
           {
             "name": "Hides",
             "type": "number",
-            "description": ""
+            "description": "Heavy native US steers, US cents per pound"
           },
           {
             "name": "China import Iron Ore",
             "type": "number",
-            "description": ""
+            "description": "CFR Tianjin port, USD per metric ton"
           },
           {
             "name": "Lamb",
             "type": "number",
-            "description": ""
+            "description": "Frozen carcass Smithfield London, US cents per pound"
           },
           {
             "name": "Lead",
             "type": "number",
-            "description": ""
+            "description": "99.97% pure, USD per metric ton"
           },
           {
             "name": "Soft Logs",
             "type": "number",
-            "description": ""
+            "description": "Average Export price from the U.S. for Douglas Fir, USD per cubic meter"
           },
           {
             "name": "Hard Logs",
             "type": "number",
-            "description": ""
+            "description": "Best quality Malaysian meranti, USD per cubic meter"
           },
           {
             "name": "Maize corn",
             "type": "number",
-            "description": ""
-          },
-          {
-            "name": "Beef",
-            "type": "number",
-            "description": ""
+            "description": "FOB Gulf of Mexico, USD per metric ton"
           },
           {
             "name": "Natural Gas - Russian Natural Gas border price in Germany",
             "type": "number",
-            "description": ""
+            "description": "USD per Million Metric British Thermal Unit"
           },
           {
             "name": "Natural Gas - Indonesian Liquefied Natural Gas in Japan",
             "type": "number",
-            "description": ""
+            "description": "USD per Million Metric British Thermal Unit"
           },
           {
             "name": "Natural Gas - Spot price at the Henry Hub terminal in Louisiana",
             "type": "number",
-            "description": ""
+            "description": "USD per Million Metric British Thermal Unit"
           },
           {
             "name": "Nickel",
             "type": "number",
-            "description": ""
+            "description": "Melting grade USD per metric ton"
           },
           {
             "name": "Crude Oil - petroleum-simple average of three spot prices",
             "type": "number",
-            "description": ""
+            "description": "Dated Brent, West Texas Intermediate and the Dubai Fateh"
           },
           {
             "name": "Crude Oil - petroleum - Dated Brent light blend",
             "type": "number",
-            "description": ""
+            "description": "Dated Brent, light blend 38 API, USD per barrel"
           },
           {
             "name": "Oil Dubai",
             "type": "number",
-            "description": ""
+            "description": "Dubai Fateh 32 API, USD per barrel"
           },
           {
             "name": "Crude Oil petroleum - West Texas Intermediate 40 API",
             "type": "number",
-            "description": ""
+            "description": "West Texas Intermediate 40 API, USD per barrel
+"
           },
           {
             "name": "Olive Oil",
             "type": "number",
-            "description": ""
+            "description": "Extra virgin less than 1% free fatty acid, USD per metric ton"
           },
           {
             "name": "Oranges",
             "type": "number",
-            "description": ""
+            "description": "Miscellaneous oranges, USD per metric ton"
           },
           {
             "name": "Palm oil",
             "type": "number",
-            "description": ""
+            "description": "Malaysia Palm Oil Futures (first contract forward) 4-5 percent FFA, USD per metric ton"
           },
           {
-            "name": "Swine - pork",
+            "name": "Swine pork",
             "type": "number",
-            "description": ""
+            "description": "51-52% lean Hogs, US cents per pound."
           },
           {
             "name": "Poultry chicken",
             "type": "number",
-            "description": ""
+            "description": "Ready-to-cook, whole, iced, Georgia docks, US cents per pound"
           },
           {
             "name": "Rice",
             "type": "number",
-            "description": ""
+            "description": "5 percent broken milled white rice, USD per metric ton"
           },
           {
             "name": "Rubber",
             "type": "number",
-            "description": ""
+            "description": "Singapore Commodity Exchange, No. 3 Rubber Smoked Sheets, 1st contract, US cents per pound"
           },
           {
             "name": "Fish salmon",
             "type": "number",
-            "description": ""
+            "description": "Farm Bred Norwegian Salmon, USD per kilogram"
           },
           {
             "name": "Hard Sawnwood",
             "type": "number",
-            "description": ""
+            "description": "Dark Red Meranti, USD per cubic meter"
           },
           {
             "name": "Soft Sawnwood",
             "type": "number",
-            "description": ""
+            "description": "Average export price of Douglas Fir, USD per cubic meter"
           },
           {
             "name": "Shrimp",
             "type": "number",
-            "description": ""
+            "description": "Mexican origin, USD per kilogram "
           },
           {
             "name": "Soybean Meal",
             "type": "number",
-            "description": ""
+            "description": "Chicago Soybean Meal Futures (first contract forward) Minimum 48 percent protein, USD per metric ton"
           },
           {
             "name": "Soybean Oil",
             "type": "number",
-            "description": ""
+            "description": "Chicago Soybean Oil Futures (first contract forward) exchange approved grades, USD per metric ton"
           },
           {
             "name": "Soybeans",
             "type": "number",
-            "description": ""
+            "description": "Chicago Soybean futures contract (first contract forward) No. 2 yellow and par, USD per metric ton"
           },
           {
             "name": "Sugar European import price",
             "type": "number",
-            "description": ""
+            "description": "CIF Europe, US cents per pound"
           },
           {
             "name": "Sugar Free Market",
             "type": "number",
-            "description": ""
+            "description": "Coffee Sugar and Cocoa Exchange (CSCE) contract no.11 nearest future position, US cents per pound"
           },
           {
             "name": "Sugar US import price",
             "type": "number",
-            "description": ""
+            "description": "contract no.14 nearest futures position, US cents per pound (Footnote: No. 14 revised to No. 16)"
           },
           {
             "name": "Sunflower oil",
             "type": "number",
-            "description": ""
+            "description": "US export price from Gulf of Mexico, USD per metric ton"
           },
           {
             "name": "Tea",
             "type": "number",
-            "description": ""
+            "description": "Mombasa, Kenya, Auction Price, US cents per kilogram"
           },
           {
             "name": "Tin",
             "type": "number",
-            "description": ""
+            "description": "Standard grade, USD per metric ton"
           },
           {
             "name": "Uranium",
             "type": "number",
-            "description": ""
+            "description": "NUEXCO restriced price, USD per pound"
           },
           {
             "name": "Wheat",
             "type": "number",
-            "description": ""
+            "description": "No.1 Hard Red Winter ordinary protein Kansas City, USD per metric ton"
           },
           {
             "name": "Wool coarse",
             "type": "number",
-            "description": ""
+            "description": "23 micron, US cents per kilogram"
           },
           {
             "name": "Wool fine",
             "type": "number",
-            "description": ""
+            "description": "19 micron, US cents per kilogram"
           },
           {
             "name": "Zinc",
             "type": "number",
-            "description": ""
+            "description": "High grade 98% pure, USD per metric ton"
           }
         ]
       }
