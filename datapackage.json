@@ -29,7 +29,8 @@
           },
           {
             "name": "All Commodity Price Index",
-            "type": "number"
+            "type": "number",
+            "description": "testing"
           },
           {
             "name": "Non-Fuel Price Index",
