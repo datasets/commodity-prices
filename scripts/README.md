@@ -5,6 +5,13 @@ convert CFI commodity price data to a data package resource
 ### Reqirements
 
 Data preperation requires Python 2.
+Also needs xlrd module to be installed for Python
+
+Install with pip:
+```
+$ pip install xlrd
+```
+Or Follow this link for download: https://pypi.python.org/pypi/xlrd
 
 ### Processing
 
