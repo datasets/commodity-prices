@@ -215,8 +215,7 @@
           {
             "name": "Crude Oil petroleum - West Texas Intermediate 40 API",
             "type": "number",
-            "description": "West Texas Intermediate 40 API, USD per barrel
-"
+            "description": "West Texas Intermediate 40 API, USD per barrel"
           },
           {
             "name": "Olive Oil",
