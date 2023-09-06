@@ -19,8 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2  # Use @v2 for the latest version
       with:
-        python-version: 2.7
-        architecture: x64
+        python-version: 3.11
 
     - name: Install Make
       run: sudo apt-get install make  # Install Make on the runner, if needed
