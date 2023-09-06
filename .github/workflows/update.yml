@@ -4,10 +4,6 @@
 # and is posted on the website shortly afterwards.
 name: Update Dataset
 
-on:
-  schedule:
-    - cron: "0 0 * * 3"
-
 jobs:
   build:
     runs-on: ubuntu-latest
