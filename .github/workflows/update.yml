@@ -1,0 +1,40 @@
+# Updating the dataset as it was said in https://www.imf.org/external/np/res/commod/
+#Q: How often are the monthly figures updated?
+#A: Monthly data are updated on the Wednesday of the first full week of each month, so that we have time to collect all the needed data for the previous month,
+# and is posted on the website shortly afterwards.
+name: Update Dataset
+
+on:
+  schedule:
+    - cron: "0 0 * * 3"
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2  # Use @v2 for the latest version
+
+    - name: Set up Python
+      uses: actions/setup-python@v2  # Use @v2 for the latest version
+      with:
+        python-version: 3.11
+
+    - name: Install Make
+      run: sudo apt-get install make  # Install Make on the runner, if needed
+
+    - name: Execute Makefile (all target)
+      working-directory: ./  # Set the working directory to the root of your repository
+      run: make all  # Run the "all" target defined in your Makefile
+
+    - name: Commit files
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit --allow-empty -m "Auto-update of the data package" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.gh }}
