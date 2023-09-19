@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf8 -*-
 
 import os
-import urllib
+from urllib import request
 import datetime
 import csv
 import xlrd
@@ -21,7 +21,7 @@ def retrieve(source):
 	'''Downloades xls data to archive directory
 	
 	'''
-	urllib.urlretrieve(source,'archive/external-data.xls')
+	request.urlretrieve(source,'archive/external-data.xls')
 
 def process():
 	'''Gets the data from xls file and puts them in seperete csv files for each comoditie
