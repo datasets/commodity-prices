@@ -96,7 +96,7 @@ def process():
 	]
 	
 	with xlrd.open_workbook('archive/external-data.xls') as xls_data:
-		sheet= xls_data.sheet_by_index(0)
+		sheet = xls_data.sheet_by_index(0)
 		col_num = sheet.ncols
 		row_num = sheet.nrows
 		with open('data/commodity-prices.csv', 'w') as csv_file:
@@ -104,7 +104,7 @@ def process():
 			csvwriter.writerow(header)
 			for row in range(4, row_num):
 				csv_row = []
-				for col in range(col_num):
+				for col in range(col_num):		
 					if not col:				
 						date = datetime.date(int(sheet.cell_value(row, col).split('M')[0]), int(sheet.cell_value(row, col).split('M')[1]), 1)		
 						csv_row.append(date)
