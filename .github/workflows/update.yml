@@ -4,11 +4,12 @@
 # and is posted on the website shortly afterwards.
 name: Update Dataset
 
+#Added manual trigger event
 on:
-  workflow_dispatch
   schedule:
     - cron: "0 0 * * 3"
-    
+  workflow_dispatch: {}
+
 jobs:
   build:
     runs-on: ubuntu-latest
