@@ -349,10 +349,9 @@
   ],
   "views": [
     {
-      "id": "Graph",
-      "type": "Graph",
-      "state": {
-        "graphType": "lines",
+      "specType": "simple",
+      "spec": {
+        "type": "lines-and-points",
         "group": "Date",
         "series": [
           "All Commodity Price Index"
