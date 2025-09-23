@@ -2,10 +2,11 @@
   "name": "commodity-prices",
   "title": "Commodity prices",
   "descriptions": "Monthly prices of most commodities from 1980 to 2016 years",
-  "licenses" : [
+  "licenses": [
     {
-      "type": "odc-pddl",
-      "url": "http://opendatacommons.org/licenses/pddl/"
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
   "keywords": [ "Commodity", "commodity prices", "Key commodities", "main commodities"],
@@ -18,7 +19,8 @@
     }
   ],
   "resources": [
-    { 
+    {
+      "name": "commodity-prices-data",
       "path": "data/commodity-prices.csv",
       "schema": {
         "fields": [
@@ -350,12 +352,11 @@
   "views": [
     {
       "specType": "simple",
+      "resource": "commodity-prices-data",
       "spec": {
         "type": "lines-and-points",
         "group": "Date",
-        "series": [
-          "All Commodity Price Index"
-        ]
+        "series": ["All Commodity Price Index"]
       }
     }
   ]
