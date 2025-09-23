@@ -37,7 +37,12 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git commit --allow-empty -m "Auto-update of the data package" -a
+        git add -A
+        if git diff --cached --quiet; then
+          echo "No changes to commit — skipping commit step"
+        else
+          git commit -m "Auto-update of the data package"
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
