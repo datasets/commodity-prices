@@ -352,7 +352,7 @@
   "views": [
     {
       "specType": "simple",
-      "resources": "commodity-prices-data",
+      "resources": ["commodity-prices-data"],
       "spec": {
         "type": "line",
         "group": "Date",
