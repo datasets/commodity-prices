@@ -352,9 +352,9 @@
   "views": [
     {
       "specType": "simple",
-      "resource": "commodity-prices-data",
+      "resources": "commodity-prices-data",
       "spec": {
-        "type": "lines-and-points",
+        "type": "line",
         "group": "Date",
         "series": ["All Commodity Price Index"]
       }
