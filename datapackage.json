@@ -9,7 +9,12 @@
       "title": "Open Data Commons Public Domain Dedication and License v1.0"
     }
   ],
-  "keywords": [ "Commodity", "commodity prices", "Key commodities", "main commodities"],
+  "keywords": [
+    "Commodity",
+    "commodity prices",
+    "Key commodities",
+    "main commodities"
+  ],
   "version": "0.1.0",
   "last_updated": "2016-03-30",
   "sources": [
@@ -681,7 +686,16 @@
   "views": [
     {
       "specType": "simple",
-      "resources": ["commodity-prices-data", "commodity-prices-data-v2"],
+      "resources": ["commodity-prices-data"],
+      "spec": {
+        "type": "line",
+        "group": "Date",
+        "series": ["All Commodity Price Index"]
+      }
+    },
+    {
+      "specType": "simple",
+      "resources": ["commodity-prices-data-v2"],
       "spec": {
         "type": "line",
         "group": "Date",
