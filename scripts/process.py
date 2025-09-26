@@ -9,26 +9,29 @@ import xlrd
 
 
 source = 'http://www.imf.org/external/np/res/commod/External_Data.xls'
+source2 = 'https://www.imf.org/-/media/Files/Research/CommodityPrices/Monthly/external-data.ashx'  # Your new source
 
 def setup():
-	'''Crates the directories for archive and data if they don't exist
-	
-	'''
-	if not os.path.exists('archive'):
-		os.mkdir('archive')
+    '''Creates the directories for archive and data if they don't exist
+    
+    '''
+    if not os.path.exists('archive'):
+        os.mkdir('archive')
+    if not os.path.exists('data'):
+        os.mkdir('data')
 
-def retrieve(source):
-	'''Downloades xls data to archive directory
-	
-	'''
-	request.urlretrieve(source,'archive/external-data.xls')
+def retrieve(source, filename):
+    '''Downloads xls data to archive directory
+    
+    '''
+    request.urlretrieve(source, f'archive/{filename}')
 
-def process():
-	'''Gets the data from xls file and puts them in seperete csv files for each comoditie
-	
-	'''		
-	
-	header = [
+def process_data(input_file, output_file):
+    '''Gets the data from xls file and puts them in separate csv files for each commodity
+    
+    '''		
+    
+    header = [
 		'Date',
 		'All Commodity Price Index',
 		'Non-Fuel Price Index',
@@ -94,26 +97,33 @@ def process():
 		'Wool fine',
 		'Zinc'
 	]
-	
-	with xlrd.open_workbook('archive/external-data.xls') as xls_data:
-		sheet = xls_data.sheet_by_index(0)
-		col_num = sheet.ncols
-		row_num = sheet.nrows
-		with open('data/commodity-prices.csv', 'w') as csv_file:
-			csvwriter = csv.writer(csv_file)
-			csvwriter.writerow(header)
-			for row in range(4, row_num):
-				csv_row = []
-				for col in range(col_num):		
-					if not col:				
-						date = datetime.date(int(sheet.cell_value(row, col).split('M')[0]), int(sheet.cell_value(row, col).split('M')[1]), 1)		
-						csv_row.append(date)
-					else:
-						price = sheet.cell_value(row, col)
-						csv_row.append(price)
-				csvwriter.writerow(csv_row)
-			
+    
+    with xlrd.open_workbook(f'archive/{input_file}') as xls_data:
+        sheet = xls_data.sheet_by_index(0)
+        col_num = sheet.ncols
+        row_num = sheet.nrows
+        with open(f'data/{output_file}', 'w') as csv_file:
+            csvwriter = csv.writer(csv_file)
+            csvwriter.writerow(header)
+            for row in range(4, row_num):
+                csv_row = []
+                for col in range(col_num):		
+                    if not col:				
+                        date = datetime.date(int(sheet.cell_value(row, col).split('M')[0]), int(sheet.cell_value(row, col).split('M')[1]), 1)		
+                        csv_row.append(date)
+                    else:
+                        price = sheet.cell_value(row, col)
+                        csv_row.append(price)
+                csvwriter.writerow(csv_row)
+                
+
+
+def process(data_src, archive_file, output_file):
+    retrieve(data_src, archive_file)
+    process_data(archive_file, output_file)
+    
+
 if __name__ == '__main__':
 	setup()
-	retrieve(source)
-	process()
+	process(source, 'external-data.xls', 'commodity-prices.csv')
+	process(source2, 'external-data-v2.xls', 'commodity-prices_v2.csv')
