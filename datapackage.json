@@ -27,6 +27,8 @@
     {
       "name": "commodity-prices-data",
       "path": "data/commodity-prices.csv",
+      "title": "IMF Commodity Prices Dataset (2005 Index Base)",
+      "description": "Monthly prices of most commodities (such as fuel, non-fuel, food, industrial inputs e.t.c) from 1980 to 2017.Indices are referenced to 2005=100.",
       "schema": {
         "fields": [
           {
@@ -356,6 +358,8 @@
     {
       "name": "commodity-prices-data-v2",
       "path": "data/commodity-prices_v2.csv",
+      "title": "IMF Commodity Prices Dataset (2016 Index Base)",
+      "description": "Updated monthly commodity prices and indices, with 2016 as the base year (2016=100).",
       "schema": {
         "fields": [
           {
@@ -688,6 +692,7 @@
       "specType": "simple",
       "resources": ["commodity-prices-data"],
       "spec": {
+        "title": "All Commodity Price Index (2005 Base, 1980-2016)",
         "type": "line",
         "group": "Date",
         "series": ["All Commodity Price Index"]
@@ -697,6 +702,7 @@
       "specType": "simple",
       "resources": ["commodity-prices-data-v2"],
       "spec": {
+        "title": "All Commodity Price Index (2016 Base, Updated)",
         "type": "line",
         "group": "Date",
         "series": ["All Commodity Price Index"]
